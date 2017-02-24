@@ -148,7 +148,7 @@ class MailgunAdapter extends MailAdapter.default {
             }
 
             // Compile html template
-            compiled = Handlebars.compile(cachedTemplate['html']);
+            compiled = Handlebars.compile(`${cachedTemplate['html']}`);
 
             // Add processed HTML to the message object
             this.message.html = compiled(this.templateVars);

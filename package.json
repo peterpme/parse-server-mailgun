@@ -1,6 +1,6 @@
 {
-  "name": "parse-server-mailgun",
-  "version": "2.4.8",
+  "name": "@peterpme/parse-server-mailgun",
+  "version": "2.5.9",
   "description": "Mailgun adapter for Parse Server apps",
   "main": "./lib/MailgunAdapter.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "parse-server",
     "email-adapter"
   ],
-  "author": "Sebastian Sylvester",
+  "author": "Peter Piekarczyk",
   "license": "MIT",
   "bugs": "https://github.com/sebsylvester/parse-server-mailgun/issues",
   "homepage": "https://github.com/sebsylvester/parse-server-mailgun",
